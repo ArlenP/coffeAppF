@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F43CEC063A43E52DEFFF92E /* Pods_CoffeAppF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E7B06C6E58614E76C7E80B /* Pods_CoffeAppF.framework */; };
 		AB658D6E26549AAA0066A01C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658D6D26549AAA0066A01C /* AppDelegate.swift */; };
 		AB658D7026549AAA0066A01C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658D6F26549AAA0066A01C /* SceneDelegate.swift */; };
 		AB658D7226549AAA0066A01C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658D7126549AAA0066A01C /* ViewController.swift */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50E7B06C6E58614E76C7E80B /* Pods_CoffeAppF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeAppF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE94695444A574075961868 /* Pods-CoffeAppF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeAppF.debug.xcconfig"; path = "Target Support Files/Pods-CoffeAppF/Pods-CoffeAppF.debug.xcconfig"; sourceTree = "<group>"; };
 		AB658D6A26549AAA0066A01C /* CoffeAppF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeAppF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB658D6D26549AAA0066A01C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB658D6F26549AAA0066A01C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		AB658D8B26549AAF0066A01C /* CoffeAppFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeAppFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB658D8F26549AAF0066A01C /* CoffeAppFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeAppFUITests.swift; sourceTree = "<group>"; };
 		AB658D9126549AAF0066A01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DCDB387DC3221A6BD50C89 /* Pods-CoffeAppF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeAppF.release.xcconfig"; path = "Target Support Files/Pods-CoffeAppF/Pods-CoffeAppF.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F43CEC063A43E52DEFFF92E /* Pods_CoffeAppF.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66EBC90498A3B22461AE0F28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50E7B06C6E58614E76C7E80B /* Pods_CoffeAppF.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B2C48B4170AD6F7620B31C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BE94695444A574075961868 /* Pods-CoffeAppF.debug.xcconfig */,
+				B7DCDB387DC3221A6BD50C89 /* Pods-CoffeAppF.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AB658D6126549AAA0066A01C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				AB658D8326549AAF0066A01C /* CoffeAppFTests */,
 				AB658D8E26549AAF0066A01C /* CoffeAppFUITests */,
 				AB658D6B26549AAA0066A01C /* Products */,
+				7B2C48B4170AD6F7620B31C4 /* Pods */,
+				66EBC90498A3B22461AE0F28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +123,9 @@
 		AB658D6C26549AAA0066A01C /* CoffeAppF */ = {
 			isa = PBXGroup;
 			children = (
+				AB658DA82654A0720066A01C /* New Group */,
+				AB658DA72654A0660066A01C /* Views */,
+				AB658DA62654A0590066A01C /* Models */,
 				AB658D6D26549AAA0066A01C /* AppDelegate.swift */,
 				AB658D6F26549AAA0066A01C /* SceneDelegate.swift */,
 				AB658D7126549AAA0066A01C /* ViewController.swift */,
@@ -128,6 +155,27 @@
 			path = CoffeAppFUITests;
 			sourceTree = "<group>";
 		};
+		AB658DA62654A0590066A01C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB658DA72654A0660066A01C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB658DA82654A0720066A01C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB658D9426549AB00066A01C /* Build configuration list for PBXNativeTarget "CoffeAppF" */;
 			buildPhases = (
+				A9EC33A510B132539BDA71F1 /* [CP] Check Pods Manifest.lock */,
 				AB658D6626549AAA0066A01C /* Sources */,
 				AB658D6726549AAA0066A01C /* Frameworks */,
 				AB658D6826549AAA0066A01C /* Resources */,
+				07BF76702F7BD549663FD9CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +302,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07BF76702F7BD549663FD9CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeAppF/Pods-CoffeAppF-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeAppF/Pods-CoffeAppF-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeAppF/Pods-CoffeAppF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9EC33A510B132539BDA71F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeAppF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB658D6626549AAA0066A01C /* Sources */ = {
@@ -433,12 +525,14 @@
 		};
 		AB658D9526549AB00066A01C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE94695444A574075961868 /* Pods-CoffeAppF.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LRB92KKD8;
 				INFOPLIST_FILE = CoffeAppF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +546,14 @@
 		};
 		AB658D9626549AB00066A01C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DCDB387DC3221A6BD50C89 /* Pods-CoffeAppF.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LRB92KKD8;
 				INFOPLIST_FILE = CoffeAppF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
